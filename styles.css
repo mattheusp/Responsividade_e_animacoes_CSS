@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
+body{
     background: rgb(0, 212, 255);
     background: linear-gradient (114deg,
             rgba(0, 212, 255, 1) 0%,
@@ -19,9 +19,9 @@ body {
 
 ;
 
-.container {
+.container{
     width: 80%;
-    box-shadow: 0 0 1rem 0 rgba (0, 0, 0, 0.2);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     background-color: white;
     display: flex;
