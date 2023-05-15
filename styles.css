@@ -34,3 +34,80 @@ body{
     display: flex;
     align-items: center;
 }
+
+.logo{
+    width: 50px;
+    margin: 30px 0;
+
+}
+
+nav {
+    width: 100%;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.nav-link{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color:#fb5283;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.column-1 {
+    margin-left: 50px;
+}
+
+h2 {
+    font-size: 54px;
+}
+
+h3 {
+    font-size: 34px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+.column-1 p{
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+
+h4 {
+    font-size: 20px;
+    color: #000;
+    margin: 30px 0;
+}
+
+button {
+    width: 140px;
+    border: none;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+}
+
+.controller {
+
+}
