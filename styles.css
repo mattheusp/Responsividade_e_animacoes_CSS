@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
+body {
     background: rgb(0, 212, 255);
     background: linear-gradient (114deg,
             rgba(0, 212, 255, 1) 0%,
@@ -19,7 +19,7 @@ body{
 
 ;
 
-.container{
+.container {
     width: 80%;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -29,13 +29,13 @@ body{
     padding: 10px;
 }
 
-.navbar{
+.navbar {
     width: 100%;
     display: flex;
     align-items: center;
 }
 
-.logo{
+.logo {
     width: 50px;
     margin: 30px 0;
 
@@ -52,18 +52,18 @@ li {
     margin-right: 30px;
 }
 
-.nav-link{
+.nav-link {
     cursor: pointer;
     text-decoration: none;
     color: #000;
     font-size: 14px;
 }
 
-.nav-link:hover{
-    color:#fb5283;
+.nav-link:hover {
+    color: #fb5283;
 }
 
-.row{
+.row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,7 +85,7 @@ h3 {
     margin: 20px 0;
 }
 
-.column-1 p{
+.column-1 p {
     font-size: 16px;
     color: #b7b7b7;
     font-weight: 100;
@@ -108,6 +108,15 @@ button {
     background: linear-gradient(to right, #fb5283, #ff3527);
 }
 
-.controller {
+.column-2 {
+    display: flex;
+    align-items: center;
+}
 
+.controller {
+    width: 90%;
+}
+
+.color-box{
+    
 }
