@@ -27,6 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    overflow: hidden;
 }
 
 .navbar {
@@ -97,7 +98,7 @@ h4 {
     margin: 30px 0;
 }
 
-button {
+.buy {
     width: 140px;
     border: none;
     padding: 12px 10px;
@@ -105,6 +106,7 @@ button {
     color: #fff;
     border-radius: 6px;
     cursor: pointer;
+    z-index: 2;
     background: linear-gradient(to right, #fb5283, #ff3527);
 }
 
@@ -116,6 +118,7 @@ button {
 
 .controller {
     width: 90%;
+    z-index: 2;
 }
 
 .color-box{
@@ -126,4 +129,6 @@ button {
     height: 100%;
     width: 80%;
     border-radius: 20px 0 0 20px;
+    z-index: 1;
+    transform: translateX(150px)
 }
